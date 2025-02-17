@@ -8,10 +8,10 @@ const Home = () => {
       <p className="mb-10 text-balance">
         <span className="md:block">
           Add adventure to your life by joining the #vanlife movement.
-        </span>{" "}
+        </span>
         Rent the perfect van to make your perfect road trip.
       </p>
-      <button className="bg-van-700 w-full max-w-sm rounded-xs border-none p-2">
+      <button className="bg-van-700 w-full max-w-sm cursor-pointer rounded-xs border-none p-2">
         Find your Van
       </button>
     </main>

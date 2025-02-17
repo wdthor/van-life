@@ -1,20 +1,23 @@
-import "./header.css";
+import { Link } from "react-router";
+
 const Header = () => {
   const links = [
     {
       name: "About",
+      path: "/about",
     },
     {
       name: "Vans",
+      path: "/",
     },
   ];
 
   const linksEl = links.map((link) => (
     <li
       key={link.name}
-      className="text-van-gray-700 active:text-van-gray-900 active:underline"
+      className="text-van-gray-700 hover:text-van-gray-900 hover:underline"
     >
-      <a href="">{link.name}</a>
+      <Link to={link.path}>{link.name}</Link>
     </li>
   ));
   return (
@@ -22,11 +25,12 @@ const Header = () => {
       id="header"
       className="flex w-full items-center justify-between px-6 py-6"
     >
-      <a className="skip-nav-link" href="#main">
-        Skip to main content
-      </a>
-      <div className="text-2xl font-bold uppercase">#Vanlife</div>
-      <ul className="flex gap-4">{linksEl}</ul>
+      <Link to="/" className="text-2xl font-bold uppercase hover:underline">
+        #Vanlife
+      </Link>
+      <nav>
+        <ul className="flex gap-4">{linksEl}</ul>
+      </nav>
     </header>
   );
 };

@@ -31,7 +31,7 @@ const About = () => {
               <span className="block">Your destination is waiting.</span> Your
               van is ready.
             </h2>
-            <button className="bg-van-gray-900 rounded-md px-4 py-2 text-white">
+            <button className="bg-van-gray-900 cursor-pointer rounded-md px-4 py-2 text-white transition-transform hover:translate-0.5">
               Explore our vans
             </button>
           </div>
