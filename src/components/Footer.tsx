@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="flex justify-center py-4 bg-van-gray-800 text-van-gray-400 md:justify-end px-6">
+    <footer className="bg-van-gray-800 text-van-gray-400 flex justify-center px-6 py-4 md:justify-end">
       Ⓒ 2025 #VANLIFE
     </footer>
   );

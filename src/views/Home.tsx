@@ -1,7 +1,7 @@
 const Home = () => {
   return (
-    <main className="bg-gray-400 bg-[url(assets/mountain-view.jpg)] bg-blend-multiply bg-cover bg-top flex flex-col px-6 py-20 flex-auto text-white sm:items-center md:text-center">
-      <h1 className="text-4xl font-bold mb-4 text-pretty">
+    <main className="flex flex-auto flex-col bg-gray-400 bg-[url(assets/mountain-view.jpg)] bg-cover bg-top px-6 py-20 text-white bg-blend-multiply sm:items-center md:text-center">
+      <h1 className="mb-4 text-4xl font-bold text-pretty">
         <span className="md:block">You got the travel plans,</span> we got the
         travel vans.
       </h1>
@@ -11,7 +11,7 @@ const Home = () => {
         </span>{" "}
         Rent the perfect van to make your perfect road trip.
       </p>
-      <button className="bg-van-700 p-2 rounded-xs border-none max-w-sm w-full">
+      <button className="bg-van-700 w-full max-w-sm rounded-xs border-none p-2">
         Find your Van
       </button>
     </main>

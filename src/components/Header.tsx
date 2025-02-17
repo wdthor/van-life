@@ -20,12 +20,12 @@ const Header = () => {
   return (
     <header
       id="header"
-      className="flex px-6 py-6 w-full justify-between items-center"
+      className="flex w-full items-center justify-between px-6 py-6"
     >
       <a className="skip-nav-link" href="#main">
         Skip to main content
       </a>
-      <div className="text-2xl uppercase font-bold">#Vanlife</div>
+      <div className="text-2xl font-bold uppercase">#Vanlife</div>
       <ul className="flex gap-4">{linksEl}</ul>
     </header>
   );

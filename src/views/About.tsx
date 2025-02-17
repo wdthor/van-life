@@ -1,18 +1,18 @@
 import vanNight from "../assets/van-night.jpg";
 const About = () => {
   return (
-    <main className="flex flex-col flex-auto w-full">
-      <section className="xl:flex xl:flex-row-reverse lg:px-12 xl:px-25 xl:gap-20">
-        <div className="h-58 relative overflow-hidden lg:w-full lg:h-auto">
+    <main className="flex w-full flex-auto flex-col">
+      <section className="lg:px-12 xl:flex xl:flex-row-reverse xl:gap-20 xl:px-25">
+        <div className="relative h-58 overflow-hidden lg:h-auto lg:w-full">
           <img
-            className="w-full h-auto absolute -top-50 sm:px-6 xl:px-0 sm:-top-80 md:-top-110 lg:top-0 lg:relative lg:max-h-108 lg:object-cover lg:object-center lg:mt-8 lg:rounded"
+            className="absolute -top-50 h-auto w-full sm:-top-80 sm:px-6 md:-top-110 lg:relative lg:top-0 lg:mt-8 lg:max-h-108 lg:rounded lg:object-cover lg:object-center xl:px-0"
             src={vanNight}
             alt="A person sitting on a van watching the stars at night"
           />
         </div>
-        <section className="px-6 py-8 sm:grid sm:grid-cols-2 gap-6 xl:block">
+        <section className="gap-6 px-6 py-8 sm:grid sm:grid-cols-2 xl:block">
           <div>
-            <h1 className="text-2xl font-bold mb-4 text-pretty">
+            <h1 className="mb-4 text-2xl font-bold text-pretty">
               Don’t squeeze in a sedan when you could relax in a van.
             </h1>
             <p className="mb-4">
@@ -26,12 +26,12 @@ const About = () => {
               magic of touring the world on 4 wheels.
             </p>
           </div>
-          <div className="p-6 bg-van-500 sm:h-fit rounded">
-            <h2 className="text-xl font-bold mb-4">
+          <div className="bg-van-500 rounded p-6 sm:h-fit">
+            <h2 className="mb-4 text-xl font-bold">
               <span className="block">Your destination is waiting.</span> Your
               van is ready.
             </h2>
-            <button className="bg-van-gray-900 text-white px-4 py-2 rounded-md">
+            <button className="bg-van-gray-900 rounded-md px-4 py-2 text-white">
               Explore our vans
             </button>
           </div>
