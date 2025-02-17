@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <main className="bg-gray-400 bg-[url(assets/mountain-view.png)] bg-blend-multiply bg-cover bg-center flex flex-col px-6 py-20 flex-auto text-white sm:items-center md:text-center">
+    <main className="bg-gray-400 bg-[url(assets/mountain-view.jpg)] bg-blend-multiply bg-cover bg-top flex flex-col px-6 py-20 flex-auto text-white sm:items-center md:text-center">
       <h1 className="text-4xl font-bold mb-4 text-pretty">
         <span className="md:block">You got the travel plans,</span> we got the
         travel vans.

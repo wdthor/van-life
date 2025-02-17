@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <header
       id="header"
-      className="flex px-6 py-8 bg-van-100 w-full justify-between"
+      className="flex px-6 py-6 w-full justify-between items-center"
     >
       <a className="skip-nav-link" href="#main">
         Skip to main content
